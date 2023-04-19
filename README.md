@@ -29,7 +29,7 @@ Finalmente, se ejecuta un test de Dickey-Fuller y con un *p-value* de 3.908e-12 
 ### Construcción del modelo
 Se probaron tres modelos diferentes. El primero fue un modelo ARMA, el segundo un modelo RNN (*Recurrent Neural Network*) y el tercero fue un LSTM (*Long-Short Term Memory). los resultados se muestran a continuación.
 
-<img src="referencias/images/arma.png" alt="Alt text 1" width="300"/> 
+<img src="referencias/images/arma.png" alt="Alt text 1" width="400"/> 
 
 <img src="referencias/images/rnn.png" alt="Alt text 1" width="300"/>  <img src="referencias/images/lstm.png" alt="Alt text 1" width="300"/> 
 
