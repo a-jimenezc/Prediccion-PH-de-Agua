@@ -27,10 +27,9 @@ Visualmente, no hay tendencia ni variaciones estacionarias. Adicionalmente se mu
 Finalmente, se ejecuta un test de Dickey-Fuller y con un *p-value* de 3.908e-12 se tdescarta la hipóteis *Null* y se acepta que nuestros datos son estacionarios.
 
 ### Construcción del modelo
-
-Se probaron tres arquitecturas diferentes de algoritmo Perceptron, con una, dos y tres capas ocultas. En cada caso se utilizó Grid Search con Crossvalidation para la selección de los hiperparametros. Los modelos se construyeron utilizando la libreria Keras. Además, se usó la implementacion de la libreria Scikit-earn para Grid Search.
-
-La métrica usada como referencia es "Accuracy". Esta nos da una medida general del desempeño del modelo cuando se tiene una variable objetivo balanceada.
+Se probaron tres modelos diferentes. El primero fue un modelo ARMA, el segundo un modelo RNN (*Recurrent Neural Network*) y el tercero fue un LSTM (*Long-Short Term Memory). los resultados se muestran a continuación.
+<img src="referencias/images/arma.png" alt="Alt text 1" width="300"/> 
+<img src="referencias/images/rnn.png" alt="Alt text 1" width="300"/>  <img src="referencias/images/lstm.png" alt="Alt text 1" width="300"/> 
 
 ### Selección del modelo
 
