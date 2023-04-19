@@ -58,4 +58,4 @@ El modelo que mejor se desempeña con la métrica escogida es el de arquitectura
 
 jimenezc.bo@gmail.com  
 
-antonio.jimzC@gmail.com
+antonio.jimzC@gmail.com 
