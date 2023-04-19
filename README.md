@@ -35,30 +35,17 @@ Se probaron tres modelos diferentes. El primero fue un modelo ARMA, el segundo u
 
 ### Selección del modelo
 
-A continuación se ilustra los resultados de cada uno de los modelos.
-
-<img src="referencias/images/scores1.png" alt="Alt text 1" width="400"/>
-
-Se observa que el modelo con una capa oculta es el que mejor se desempeña en el test set bajo la métrica "Accuracy". Este modelo tiene la función tanh como función de activación en la capa oculta y consta de 30 neuronas en la misma. 
-
-### Explicabilidad del Modelo
-
-Se desea conocer la importancia de cada una de las variables en el momento de hacer la predicción por parte del modelo. Para ello se usa la técnica de permutación. Esta consiste en permutar los valores de las filas de cada columna, una columna a la vez, y calcular como el desempeño es afectado por esta permutación. Aquellas columnas (esto es, las variables) cuya permutación cause la mayor caída en el desepeño serán las mas importantes para el modelo.
-
-A continuación se detallan los resultados de permutación para el trainin-set y test-set.
-
-<img src="referencias/images/importances_train.png" alt="Alt text 1" width="300"/> <img src="referencias/images/imprtances_test.png" alt="Alt text 2" width="300"/>
-
-Se observa que thall_3 (talasemia, defecto reversible) es una varible muy importante cuando se usa el test set, pero qno así en el training set. Esto sugiere que el modelo puede no estar capturando parte de la complejidad en los datos. También se puede ver que caa (número de vasos principales) es una variable muy importante cuando se usa el training set, pero no con el test set. Esto puede ser una señal de que esta varible esta causando overfitting.
+A pesar de la complejidad de los algoritmos de Deep Learning utilizados, RNN y LSTM, no se observa una mejora significativa respecto al modelo más simple de ARMA. Por lo tanto, se prefiere tomar este último como el modelo para realizar las predicciones. 
 
 
 ### Conclusiones
 
-El modelo que mejor se desempeña con la métrica escogida es el de arquitectura más simple. Sin embargo, todavía es posible mejorar este modelo buscando hiperparámetros más óptimos realizando una busqueda exaustiva con "Grid Search".
+El modelo ARMA se desempeña bastante bien y tiene una arquitectura simple. Esto se debe a la naturaleza de los datos. Sin embargo, en caso de tener datos en un rango de tiempo mucho mas amplio, es posible que tendencias y variaciones estacionarias surjam. En este caso, modelos mas complejos puede entregar mejores resultados.
 
 ### Contacto
 
 
+antonio.jimzC@gmail.com 
+
 jimenezc.bo@gmail.com  
 
-antonio.jimzC@gmail.com 
