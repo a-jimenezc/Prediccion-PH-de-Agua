@@ -1,8 +1,8 @@
-# Prediccion-PH-de-Agua## Predicción de Enfermedad Cardiaca con Redes Neuronales
+## Predicción del PH de Planta de Tratameinto de Agua Potable Achachicala
 
 ### Objetivo
 
-El objetivo del presente análisis es desarrollar un modelo de red neuronal que permita predecir si un paciente presenta un cuadro de enfermedad de arterias coronarias.
+El objetivo del presente trabajo es desarrollar un modelo que permita predecir la nivel de PH de la planta de tratamiento de agua Achichicala. Esto a partir de los datos tomados diariamente en un lapso de 6 meses.
 
 ### Prerequisitos
 
@@ -10,19 +10,13 @@ Las librerias necesarias están listadas en requirements.txt. También se incluy
 
 ### Datos
 
-Los datos seleccionados fueron descargados de Kaggle bajo el nombre "Heart Attack Analysis & Prediction Dataset" y fueron subidos por Rashik Rahman. A su vez, la base de datos orginial fue recolectada por: 
-1.	Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.
-2.	University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.
-3.	University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.
-4.	V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D.
-
-Ver la carpeta de referencias para más información.
+Los datos provienenen de las mediciones del nivel de PH de tomados de la planta Achachicala, ubicada en la ciudad de La Paz en Bolivia, como parte del control normado por Ley. El rango de tiempo es de 6 meses, con una frecuencia de una muestra por día. La muestra se tomó entre el primero de enero y el 30 de junio del 2021.
 
 ### Exploración Inicial de Datos
 
-El conjunto de datos se compone de variables numericas, ordinales y categoricas. La mayoria de los datos proviene de personas por encima de los 40 años y, además, en su mayoria varones.
+Se grafica la serie de tiempo junto con un gráfico de violín por semana.
 
-<img src="referencias/images/age.png" alt="Alt text 1" width="300"/> <img src="referencias/images/gender.png" alt="Alt text 2" width="300"/>
+<img src="referencias/images/serie.png" alt="Alt text 1" width="300"/> <img src="referencias/images/violin.png" alt="Alt text 2" width="300"/>
 
 Se puede observar que existe correlación entre ciertas variables numéricas, lo cual sugiere que el modelo se puede beneficiar del uso de regularizacion. 
 
