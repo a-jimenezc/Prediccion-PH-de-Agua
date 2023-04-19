@@ -2,7 +2,7 @@
 
 ### Objetivo
 
-El objetivo del presente trabajo es desarrollar un modelo que permita predecir la nivel de PH de la planta de tratamiento de agua Achichicala. Esto a partir de los datos tomados diariamente en un lapso de 6 meses.
+El objetivo del presente trabajo es desarrollar un modelo que permita predecir la nivel de PH de la planta de tratamiento de agua Achichicala a partir de los datos tomados diariamente en un lapso de 6 meses.
 
 ### Prerequisitos
 
