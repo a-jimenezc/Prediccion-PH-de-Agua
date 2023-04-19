@@ -16,11 +16,11 @@ Los datos provienenen de las mediciones del nivel de PH de tomados de la planta 
 
 Se grafica la serie de tiempo junto con un gráfico de violín por semana.
 
-<img src="referencias/images/serie.png" alt="Alt text 1" width="300"/> <img src="referencias/images/violin.png" alt="Alt text 2" width="300"/>
+<img src="referencias/images/serie.png" alt="Alt text 1" width="500"/> <img src="referencias/images/violin.png" alt="Alt text 2" width="500"/>
 
 Visualmente, no hay tendencia ni variaciones estacionarias. Adicionalmente se muestra un gráfico de frecuencias para visualizar la ausencia de tendencia y la distribción normal de los datos respecto al promedio. 
 
-<img src="referencias/images/freq.png" alt="Alt text 1" width="400"/>
+<img src="referencias/images/freq.png" alt="Alt text 1" width="200"/>
 
 Finalmente, se ejecuta un test de Dickey-Fuller y con un *p-value* de 3.908e-12 se tdescarta la hipóteis *Null* y se acepta que nuestros datos son estacionarios.
 
