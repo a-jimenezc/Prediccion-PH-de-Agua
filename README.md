@@ -46,8 +46,6 @@ El modelo ARMA se desempeña bastante bien y tiene una arquitectura simple. Esto
 
 ### Contacto
 
+[Linkedin](https://www.linkedin.com/in/antonio-jimnzc/)
 
-antonio.jimzC@gmail.com 
-
-jimenezc.bo@gmail.com  
 
