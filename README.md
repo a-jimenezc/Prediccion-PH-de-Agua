@@ -42,7 +42,11 @@ A pesar de la complejidad de los algoritmos de Deep Learning utilizados, RNN y L
 
 ### Conclusiones
 
-El modelo ARMA se desempeña bastante bien y tiene una arquitectura simple. Esto se debe a la naturaleza de los datos. Sin embargo, en caso de tener datos en un rango de tiempo mucho mas amplio, es posible que tendencias y variaciones estacionarias surjan. En este caso, modelos mas complejos puede entregar mejores resultados.
+El modelo ARMA se desempeña bastante bien y tiene una arquitectura simple. Esto se debe a la naturaleza de los datos. Sin embargo, con acceso a datos en un rango de tiempo mucho mas amplio, es posible que tendencias y variaciones estacionarias surjan. En este caso, modelos mas complejos puede entregar mejores resultados.
+
+## Siguientes pasos
+
+Recabar más datos y, en base a ellos, repetir el análisis en un rango mucho más amplio de tiempo.
 
 ### Contacto
 
